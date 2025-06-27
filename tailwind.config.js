@@ -9,6 +9,10 @@ export default {
         "primary-blue": "#3e6ae1",
         "gray-1": "#2d2d2d66",
       },
+      fontFamily: {
+        Roboto: "Roboto, sans-serif",
+        InterTight: "Inter Tight, sans-serif",
+      },
     },
   },
   plugins: [],

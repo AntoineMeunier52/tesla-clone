@@ -2,12 +2,12 @@
 
 <template>
   <div>
-    <h1 class="container">Hello</h1>
+    <NuxtPage />
   </div>
 </template>
 
 <style scoped>
 .container {
-  @apply text-red-500;
+  @apply font-Roboto bg-red-200;
 }
 </style>
