@@ -3,7 +3,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+
   devtools: { enabled: true },
+
   experimental: {
     scanPageMeta: "after-resolve",
     sharedPrerenderData: false,
@@ -22,12 +24,25 @@ export default defineNuxtConfig({
       },
     },
   },
+
   features: {
     inlineStyles: true,
   },
+
   unhead: {
     renderSSRHeadOptions: {
       omitLineBreaks: false,
     },
   },
+
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "@nuxt/image"],
+
+  googleFonts: {
+    families: {
+      "Inter Tight": true,
+      Roboto: true,
+    },
+  },
+
+  css: ["@/assets/css/main.css"],
 });
