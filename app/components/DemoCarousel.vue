@@ -83,7 +83,7 @@ const currentContent = computed(() => videos.value[selected.value - 1]);
 
 <style scoped>
 .demo-carousel-container {
-  @apply relative bg-black h-[898px] w-full py-[16px] flex flex-col items-center justify-end;
+  @apply relative bg-black h-[998px] w-full py-[50px] flex flex-col items-center justify-end;
 }
 
 .demo-carousel-video-wrapper {
@@ -107,6 +107,6 @@ const currentContent = computed(() => videos.value[selected.value - 1]);
 }
 
 .demo-carousel-content {
-  @apply pb-[14px] h-[94px];
+  @apply pb-[14px] h-[94px] leading-[20px];
 }
 </style>

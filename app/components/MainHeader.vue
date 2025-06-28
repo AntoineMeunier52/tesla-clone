@@ -35,26 +35,31 @@
       <div class="hero-infos-container">
         <div class="hero-specs">
           <div class="hero-specs-section">
-            600 <span class="hero-specs-value">km</span><br />
-            <p class="hero-specs-info">Autonomie</p>
+            <TitleInfo title="600" unit="km" info="Antonomie" />
             <span class="hero-specs-info"
               >(
               <a href="" class="hero-specs-info-link">WLTP</a>
               )</span
             >
           </div>
-          <div class="hero-specs-section">
-            2.1 <span class="hero-specs-value">s</span><br />
-            <p class="hero-specs-info">0 à 100 km/h</p>
-          </div>
-          <div class="hero-specs-section">
-            322 <span class="hero-specs-value">km/h</span><br />
-            <p class="hero-specs-info">Vitesse maximale</p>
-          </div>
-          <div class="hero-specs-section">
-            1020 <span class="hero-specs-value">ch</span><br />
-            <p class="hero-specs-info">Puissance du véhicule</p>
-          </div>
+          <TitleInfo
+            class="w-[150px]"
+            title="2.1"
+            unit="s"
+            info="0 à 100 km/h"
+          />
+          <TitleInfo
+            class="w-[150px]"
+            title="322"
+            unit="km/h"
+            info="Vitesse maximale"
+          />
+          <TitleInfo
+            class="w-[150px]"
+            title="1020"
+            unit="ch"
+            info="Puissance du véhicule"
+          />
           <a class="hero-specs-button"><span> Véhicules disponibles </span> </a>
         </div>
         <div class="hero-disclaimer-containers">

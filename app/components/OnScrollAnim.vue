@@ -31,7 +31,7 @@ onMounted(async () => {
         scrollTrigger: {
           trigger: el,
           start: "top bottom",
-          toggleActions: "play reset play reset",
+          toggleActions: "play none none reset",
           // ^^^^ (onEnter, onLeave, onEnterBack, onLeaveBack)
         },
       }

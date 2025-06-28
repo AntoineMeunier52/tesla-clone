@@ -3,6 +3,7 @@
   <FuturInside />
   <DemoCarousel />
   <TeslaPros />
+  <SplaidSpecs />
 </template>
 
 <script setup lang="ts">

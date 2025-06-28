@@ -59,7 +59,7 @@ onMounted(() => {
       scrollTrigger: {
         trigger: titleRef.value,
         start: "top bottom",
-        toggleActions: "play none none none",
+        toggleActions: "play none none reset",
         // ^^^^ (onEnter, onLeave, onEnterBack, onLeaveBack)
       },
     }

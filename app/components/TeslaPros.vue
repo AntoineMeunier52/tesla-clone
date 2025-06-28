@@ -1,5 +1,5 @@
 <template>
-  <OnScrollAnim class="bg-black flex flex-col items-center">
+  <OnScrollAnim class="bg-black flex flex-col items-center py-[16px]">
     <div class="tesla-pros-content-container">
       <div class="tesla-pros-picture-container">
         <picture
@@ -108,6 +108,7 @@
       </div>
     </div>
   </OnScrollAnim>
+  <div class="tesla-pros-spacing"></div>
 </template>
 
 <script lang="ts" setup>
@@ -133,5 +134,9 @@ import OnScrollAnim from "./OnScrollAnim.vue";
 
 .tesla-pros-text-title {
   @apply font-bold pb-[14px];
+}
+
+.tesla-pros-spacing {
+  @apply h-[68px] bg-black;
 }
 </style>

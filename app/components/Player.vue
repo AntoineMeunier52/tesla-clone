@@ -77,7 +77,7 @@ function handleVideoEnd() {
 
 <style scoped>
 .player-video-container {
-  @apply absolute inset-0 transition-opacity duration-700 bottom-0 block left-0 right-0 top-0 w-full h-full;
+  @apply absolute inset-0 transition-opacity duration-1000 bottom-0 block left-0 right-0 top-0 w-full h-full;
 }
 
 .player-video-wrapper {

@@ -115,6 +115,6 @@
 }
 
 .main-content {
-  @apply text-white text-[14px] leading-[14px] font-Roboto font-thin;
+  @apply text-white text-[14px] leading-[20px] font-Roboto font-thin;
 }
 </style>
