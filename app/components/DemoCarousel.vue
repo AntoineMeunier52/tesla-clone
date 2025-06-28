@@ -6,6 +6,7 @@
         :key="index"
         :link="video.link"
         :visible="selected - 1 === index"
+        @nextVideo="changeVideo"
       />
     </div>
     <div class="demo-carousel-selector-content-container">
@@ -17,7 +18,7 @@
           class="demo-carousel-selector"
         ></div>
       </div>
-      <div>
+      <div class="demo-carousel-contents-container">
         <h3 class="demo-carousel-title">{{ currentContent?.title }}</h3>
         <p class="demo-carousel-content">{{ currentContent?.content }}</p>
       </div>
@@ -64,8 +65,17 @@ const videos = ref([
 const selected = ref(1);
 
 function handleClick(n: number) {
-  console.log("click", n);
   selected.value = n;
+}
+
+function changeVideo(isVisible: boolean) {
+  if (isVisible) {
+    if (selected.value === videos.value.length) {
+      selected.value = 1;
+      return;
+    }
+    selected.value++;
+  }
 }
 
 const currentContent = computed(() => videos.value[selected.value - 1]);
@@ -73,11 +83,11 @@ const currentContent = computed(() => videos.value[selected.value - 1]);
 
 <style scoped>
 .demo-carousel-container {
-  @apply relative bg-black h-[898px] w-full py-[16px] flex flex-col items-center;
+  @apply relative bg-black h-[898px] w-full py-[16px] flex flex-col items-center justify-end;
 }
 
 .demo-carousel-video-wrapper {
-  @apply relative w-[1344px] h-[576px] overflow-hidden;
+  @apply relative w-[1344px] h-[576px] overflow-hidden aspect-[21/9] rounded-[4px];
 }
 
 .demo-carousel-selector-content-container {
@@ -97,6 +107,6 @@ const currentContent = computed(() => videos.value[selected.value - 1]);
 }
 
 .demo-carousel-content {
-  @apply pb-[14px];
+  @apply pb-[14px] h-[94px];
 }
 </style>
