@@ -40,7 +40,7 @@
       </li>
     </ol>
   </header>
-  <main>
+  <main class="main-content">
     <slot></slot>
   </main>
   <footer class="footer-container">
@@ -107,10 +107,14 @@
 }
 
 .footer-container {
-  @apply flex flex-row w-full h-[70px] justify-center items-center text-[12px];
+  @apply flex flex-row w-full h-[70px] justify-center items-center text-[12px] bg-black text-white;
 }
 
 .footer-elem {
   @apply mr-[14px];
+}
+
+.main-content {
+  @apply text-white text-[14px] leading-[14px] font-Roboto font-thin;
 }
 </style>
