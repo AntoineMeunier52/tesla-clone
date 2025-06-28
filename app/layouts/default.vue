@@ -1,7 +1,9 @@
 <template>
   <header class="top-bar-container">
     <h1 class="top-bar-logo-container">
-      <a class="top-bar-logo-link"><SvgoLogo class="top-bar-logo" /></a>
+      <a class="top-bar-logo-link" href="https://www.tesla.com/"
+        ><SvgoLogo class="top-bar-logo"
+      /></a>
     </h1>
     <ol class="top-bar-center-container">
       <li class="top-bar-center-elem-center">
@@ -57,7 +59,7 @@
 
 <style scoped>
 .top-bar-container {
-  @apply flex flex-row w-full justify-between h-[56px] absolute;
+  @apply flex flex-row w-full justify-between h-[56px] absolute select-none z-10;
 }
 
 .top-bar-logo-container {
@@ -65,7 +67,7 @@
 }
 
 .top-bar-logo-link {
-  @apply px-[16px];
+  @apply px-[16px] cursor-pointer;
 }
 
 .top-bar-logo {

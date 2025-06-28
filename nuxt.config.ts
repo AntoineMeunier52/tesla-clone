@@ -35,7 +35,13 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "@nuxt/image", "nuxt-svgo"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+    "@nuxt/image",
+    "nuxt-svgo",
+    "v-gsap-nuxt",
+  ],
 
   googleFonts: {
     families: {
