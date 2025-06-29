@@ -10,26 +10,25 @@
       >
         <source
           :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Mobile.jpg'"
-          media="(max-width: 599px) and (orientation: portrait)" />
+          media="(max-width: 599px) and (orientation: portrait)"
+        />
         <source
           :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Desktop.jpg'"
-          media="(max-width: 899px) and (orientation: landscape)" />
+          media="(max-width: 899px) and (orientation: landscape)"
+        />
         <source
           :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Desktop.jpg'"
-          media="(min-width: 900px) and (orientation: landscape)" />
+          media="(min-width: 900px) and (orientation: landscape)"
+        />
         <source
           :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Desktop.jpg'"
-          media="(min-width: 600px) and (orientation:portrait)" />
-        <noscript>
-          <img
-            src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Desktop.jpg"
-            alt="Model S avec intérieur blanc vue depuis le siège passager centré sur l'écran tactile d'info divertissement"
-          />
-        </noscript>
+          media="(min-width: 600px) and (orientation:portrait)"
+        />
         <img
-          alt="Model&nbsp;S avec intérieur blanc vue depuis le siège passager centré sur l'écran tactile d'info divertissement"
-          class="tds-asset-fallback tcl-asset tcl-image__asset tcl-objectfit-position tcl-objectfit-position--center"
-      /></picture>
+          src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Desktop.jpg"
+          alt="Model S avec intérieur blanc vue depuis le siège passager centré sur l'écran tactile d'info divertissement"
+        />
+      </picture>
       <div class="futur-inside-gradient"></div>
     </div>
   </section>

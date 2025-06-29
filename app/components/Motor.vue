@@ -87,7 +87,7 @@
           accompagnée d'une puissance inouïe et d'une tenue de route optimale.
         </p>
         <div class="motor-switch-specs">
-          <TitleInfo title="3,2s" unit="s" info="0 à 100 km/h" />
+          <TitleInfo title="3,2" unit="s" info="0 à 100 km/h" />
           <TitleInfo title="634" unit="km" info="Autonomie (WLTP)" />
         </div>
       </div>
@@ -108,7 +108,7 @@
           carbone.
         </p>
         <div class="motor-switch-specs">
-          <TitleInfo title="2,1s" unit="s" info="0 à 100 km/h" />
+          <TitleInfo title="2,1" unit="s" info="0 à 100 km/h" />
           <TitleInfo title="600" unit="km" info="Autonomie (WLTP)" />
         </div>
       </div>

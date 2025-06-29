@@ -77,15 +77,15 @@ function handleVideoEnd() {
 
 <style scoped>
 .player-video-container {
-  @apply absolute inset-0 transition-opacity duration-1000 bottom-0 block left-0 right-0 top-0 w-full h-full;
+  @apply absolute flex inset-0 transition-opacity duration-1000 bottom-0 left-0 right-0 top-0 w-full h-full;
 }
 
 .player-video-wrapper {
-  @apply absolute h-full w-full top-1/2 -translate-y-1/2;
+  @apply absolute h-full w-full max-w-[1440px] top-1/2 -translate-y-1/2 pt-[56px] px-[48px];
 }
 
 .player-play-pause-container {
-  @apply absolute w-[40px] h-[40px] bg-[#808080a6] bottom-[32px] left-[32px] rounded-[4px] flex justify-center items-center;
+  @apply absolute w-[40px] h-[40px] bg-[#808080a6] bottom-[32px] left-[80px] rounded-[4px] flex justify-center items-center;
 }
 
 .player-play-pause {

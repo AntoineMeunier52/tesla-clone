@@ -6,12 +6,11 @@
   <SplaidSpecs />
   <Ludicrous />
   <Motor />
+  <SplaidRed />
+  <Efficiency />
+  <Performance />
 </template>
 
-<script setup lang="ts">
-import FuturInside from "~/components/FuturInside.vue";
-import MainHeader from "~/components/MainHeader.vue";
-import TeslaPros from "~/components/TeslaPros.vue";
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
