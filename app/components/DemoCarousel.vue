@@ -83,11 +83,11 @@ const currentContent = computed(() => videos.value[selected.value - 1]);
 
 <style scoped>
 .demo-carousel-container {
-  @apply relative bg-black h-[998px] w-full py-[50px] flex flex-col items-center justify-end;
+  @apply relative bg-black h-[998px] w-full py-[50px] flex flex-col items-center justify-end px-[48px];
 }
 
 .demo-carousel-video-wrapper {
-  @apply relative inline-block w-full max-w-[1440px] h-[576px] aspect-[21/9] rounded-[4px] mx-auto overflow-hidden;
+  @apply relative inline-block w-full max-w-[1440px] aspect-[21/9] rounded-[8px] mx-auto overflow-hidden;
 }
 
 .demo-carousel-selector-content-container {

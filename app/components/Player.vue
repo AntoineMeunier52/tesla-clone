@@ -81,7 +81,7 @@ function handleVideoEnd() {
 }
 
 .player-video-wrapper {
-  @apply absolute h-full w-full max-w-[1440px] top-1/2 -translate-y-1/2 pt-[56px] px-[48px];
+  @apply absolute h-full w-full max-w-[1440px] top-1/2 -translate-y-1/2;
 }
 
 .player-play-pause-container {

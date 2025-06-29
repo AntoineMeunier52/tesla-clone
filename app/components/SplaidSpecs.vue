@@ -60,7 +60,7 @@ onMounted(async () => {
   Array.from(children).forEach((el, index) => {
     gsap.fromTo(
       el,
-      { opacity: 0, y: 100 },
+      { opacity: 0, y: 50 },
       {
         opacity: 1,
         y: 0,
@@ -79,7 +79,7 @@ onMounted(async () => {
 
 <style>
 .splaid-container {
-  @apply relative flex grid-cols-1 h-[1098px] w-full z-[1] overflow-hidden;
+  @apply flex grid-cols-1 w-full aspect-video z-[1] overflow-hidden;
 }
 
 .splaid-picture-container {

@@ -1,34 +1,33 @@
 <template>
   <section class="hero-container">
-    <!-- prettier-ignore -->
     <div class="hero-picture-container">
-         <picture
-           class="hero-picture"
-           :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg'"
-         >
-           <source
-             :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Mobile-v3.jpg'"
-             media="(max-width: 599px) and (orientation: portrait)"
-           />
-           <source
-             :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg'"
-             media="(max-width: 899px) and (orientation: landscape)"
-           />
-           <source
-             :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg'"
-             media="(min-width: 900px) and (orientation: landscape)"
-           />
-           <source
-             :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Tablet-v3.jpg'"
-             media="(min-width: 600px) and (orientation:portrait)"
-           />
-           <img
-             src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg"
-             class="hero-image"
-           />
-         </picture>
-         <div class="hero-picture-gradient"></div>
-     </div>
+      <picture
+        class="hero-picture"
+        :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg'"
+      >
+        <source
+          :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Mobile-v3.jpg'"
+          media="(max-width: 599px) and (orientation: portrait)"
+        />
+        <source
+          :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg'"
+          media="(max-width: 899px) and (orientation: landscape)"
+        />
+        <source
+          :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg'"
+          media="(min-width: 900px) and (orientation: landscape)"
+        />
+        <source
+          :srcset="'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Tablet-v3.jpg'"
+          media="(min-width: 600px) and (orientation:portrait)"
+        />
+        <img
+          src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-v3.jpg"
+          class="hero-image"
+        />
+      </picture>
+      <div class="hero-picture-gradient"></div>
+    </div>
     <div class="hero-content-container">
       <h1 class="hero-title">Model S</h1>
       <h3 class="hero-subtitle">Plaid</h3>
