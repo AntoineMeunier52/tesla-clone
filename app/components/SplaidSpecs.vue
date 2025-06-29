@@ -79,7 +79,7 @@ onMounted(async () => {
 
 <style>
 .splaid-container {
-  @apply flex grid-cols-1 w-full aspect-video z-[1] overflow-hidden;
+  @apply relative flex grid-cols-1 w-full max-h-[1098px] aspect-video z-[1] overflow-hidden;
 }
 
 .splaid-picture-container {

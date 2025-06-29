@@ -1,6 +1,6 @@
 <template>
   <section class="motor-container">
-    <OnScrollAnim class="pt-[72px] text-start w-[1058px] no-anim">
+    <OnScrollAnim class="text-start w-[1058px] no-anim">
       <h2 class="motor-title-h2">Groupe motopropulseur électrique</h2>
       <p class="motor-title-content">
         Les plateformes de la Model S unissent les technologies du groupe moteur
@@ -127,7 +127,7 @@ function handleChangeView(bool: boolean) {
 
 function startInterval() {
   clearIntervalSwitch();
-  intervalId = setInterval(() => (isPlaid.value = !isPlaid.value), 4000);
+  intervalId = setInterval(() => (isPlaid.value = !isPlaid.value), 3000);
 }
 
 function clearIntervalSwitch() {
@@ -148,11 +148,11 @@ onUnmounted(() => {
 
 <style>
 .motor-container {
-  @apply py-[64px] text-[#393c39] flex flex-col justify-center items-center bg-[#f4f4f4];
+  @apply pt-[136px] pb-[64px] text-[#393c39] flex flex-col justify-center items-center bg-[#f4f4f4];
 }
 
 .motor-title-container {
-  @apply pt-[72px] text-start;
+  @apply text-start;
 }
 
 .motor-title-h2 {

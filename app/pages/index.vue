@@ -9,6 +9,7 @@
   <SplaidRed />
   <Efficiency />
   <Performance />
+  <Traject />
 </template>
 
 <script setup lang="ts"></script>

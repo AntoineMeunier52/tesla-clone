@@ -29,20 +29,4 @@
 
 <script lang="ts" setup></script>
 
-<style>
-.splaid-container {
-  @apply relative flex grid-cols-1 w-full z-[1] overflow-hidden;
-}
-
-.splaid-picture-container {
-  @apply relative h-full w-full z-[2] row-start-1 col-start-[-1];
-}
-
-.splaid-picture {
-  @apply block w-full h-full;
-}
-
-.splaid-image {
-  @apply ml-0 mr-0 h-full w-full object-cover;
-}
-</style>
+<style></style>

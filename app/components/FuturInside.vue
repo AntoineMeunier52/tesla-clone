@@ -25,6 +25,7 @@
           media="(min-width: 600px) and (orientation:portrait)"
         />
         <img
+          class="futur-inside-image"
           src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Desktop.jpg"
           alt="Model S avec intérieur blanc vue depuis le siège passager centré sur l'écran tactile d'info divertissement"
         />
@@ -80,7 +81,11 @@ onMounted(() => {
 }
 
 .futur-inside-picture-container {
-  @apply relative h-screen;
+  @apply relative h-screen w-full;
+}
+
+.futur-inside-image {
+  @apply object-cover w-full h-full;
 }
 
 .futur-inside-gradient {

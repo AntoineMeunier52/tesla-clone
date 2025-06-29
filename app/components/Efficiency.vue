@@ -2,7 +2,7 @@
   <OnScrollAnim
     class="px-[48px] pt-[48px] pb-[64] mx-auto h-[220px] text-[#393c41] flex justify-center bg-black"
   >
-    <div class="efficiency-content-container no-anim">
+    <div class="efficiency-content-container">
       <span class="efficiency-subtitle">Extérieur</span>
       <span class="efficiency-title">Conçu pour l'efficience</span>
       <a class="efficiency-button" href="">Véhicule disponibles</a>

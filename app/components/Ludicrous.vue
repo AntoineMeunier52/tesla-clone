@@ -2,7 +2,7 @@
   <OnScrollAnim
     class="px-[48px] py-[24px] mt-[24px] mb-[40px] mx-auto h-[156px] text-[#393c41] flex justify-center"
   >
-    <div class="ludicrous-content-container no-anim">
+    <div class="ludicrous-content-container">
       <span class="ludicrous-subtitle">Plaid</span>
       <span class="ludicrous-title">Au-delà de Ludicrous</span>
       <a class="ludicrous-button" href="">Véhicule disponibles</a>

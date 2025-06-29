@@ -85,7 +85,7 @@ function handleVideoEnd() {
 }
 
 .player-play-pause-container {
-  @apply absolute w-[40px] h-[40px] bg-[#808080a6] bottom-[32px] left-[80px] rounded-[4px] flex justify-center items-center;
+  @apply absolute w-[40px] h-[40px] bg-[#808080a6] bottom-[32px] left-[32px] rounded-[4px] flex justify-center items-center;
 }
 
 .player-play-pause {
