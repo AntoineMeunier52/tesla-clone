@@ -4,6 +4,7 @@
   <DemoCarousel />
   <TeslaPros />
   <SplaidSpecs />
+  <Ludicrous />
 </template>
 
 <script setup lang="ts">
