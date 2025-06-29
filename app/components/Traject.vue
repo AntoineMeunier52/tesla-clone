@@ -76,6 +76,7 @@ const data = ref([
   {
     isSelected: false,
     title: "Munich - Zurich",
+    svg: "munich-zurich",
     content: "",
     desktop:
       "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_munich-zurich_2451x1125.jpg",
@@ -96,11 +97,12 @@ const data = ref([
   {
     isSelected: false,
     title: "Amsterdam - Bruxelles",
+    svg: "amsterdam-bruxelles",
     content: "",
     desktop:
-      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_munich-zurich_2451x1125.jpg",
+      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_amsterdam-brussels_2451x1125.jpg",
     mobile:
-      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_munich-zurich_2451x1125.jpg",
+      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_amsterdam-brussels_1341x615.jpg",
     alt: "Munich to Zurich",
     titleInfo1: {
       title: "203",
@@ -115,32 +117,13 @@ const data = ref([
   },
   {
     isSelected: false,
-    title: "Bruxelles - Paris",
-    content: "",
-    desktop:
-      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_munich-zurich_2451x1125.jpg",
-    mobile:
-      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_munich-zurich_2451x1125.jpg",
-    alt: "Munich to Zurich",
-    titleInfo1: {
-      title: "320",
-      unit: "km",
-      info: "",
-    },
-    titleInfo2: {
-      title: "",
-      unit: "",
-      info: "",
-    },
-  },
-  {
-    isSelected: false,
     title: "Oslo - Göteborg",
+    svg: "oslo-goteborg",
     content: "",
     desktop:
-      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_munich-zurich_2451x1125.jpg",
+      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_oslo-gothenburg_1341x615.jpg",
     mobile:
-      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_munich-zurich_2451x1125.jpg",
+      "https://www.tesla.com/sites/default/files/model3-new/range-maps/fr/FR_oslo-gothenburg_1341x615.jpg",
     alt: "Munich to Zurich",
     titleInfo1: {
       title: "295",

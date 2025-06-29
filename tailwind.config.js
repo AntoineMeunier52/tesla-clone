@@ -13,6 +13,14 @@ export default {
         Roboto: "Roboto, sans-serif",
         InterTight: "Inter Tight, sans-serif",
       },
+      keyframes: {
+        stroke: {
+          to: { "stroke-dashoffset": "0" },
+        },
+      },
+      animation: {
+        stroke: "stroke 2s ease forwards",
+      },
     },
   },
   plugins: [],

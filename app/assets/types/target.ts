@@ -1,6 +1,7 @@
 export interface Target {
   isSelected: boolean;
   title: string;
+  svg: string;
   content: string;
   desktop: string;
   mobile: string;
