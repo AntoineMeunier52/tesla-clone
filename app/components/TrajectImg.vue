@@ -38,7 +38,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { Target } from "~/assets/types/target";
+import type { Target } from "~/app/assets/types/target";
 const svgComponents = ref<Record<string, any>>({});
 
 const props = defineProps<{

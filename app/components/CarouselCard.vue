@@ -28,7 +28,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { Target } from "~/assets/types/target";
+import type { Target } from "~/app/assets/types/target";
 const props = defineProps<{
   contents: Target[];
 }>();
