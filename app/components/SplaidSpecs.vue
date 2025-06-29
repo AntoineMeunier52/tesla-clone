@@ -79,7 +79,7 @@ onMounted(async () => {
 
 <style>
 .splaid-container {
-  @apply relative grid grid-cols-1 h-[1098px] w-full z-[1] overflow-hidden;
+  @apply relative flex grid-cols-1 h-[1098px] w-full z-[1] overflow-hidden;
 }
 
 .splaid-picture-container {

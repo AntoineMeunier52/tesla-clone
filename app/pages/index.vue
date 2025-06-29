@@ -5,6 +5,7 @@
   <TeslaPros />
   <SplaidSpecs />
   <Ludicrous />
+  <Motor />
 </template>
 
 <script setup lang="ts">

@@ -19,6 +19,7 @@ onMounted(async () => {
   if (!section) return;
 
   const elements = section.querySelectorAll(":scope *:not(.no-anim)");
+  const children = sectionRef.value?.children || [];
 
   elements.forEach((el, index) => {
     gsap.fromTo(
@@ -33,7 +34,7 @@ onMounted(async () => {
         duration: 1,
         scrollTrigger: {
           trigger: el,
-          start: "top 105%",
+          start: "top bottom",
           toggleActions: "play none none reset",
           // ^^^^ (onEnter, onLeave, onEnterBack, onLeaveBack)
         },

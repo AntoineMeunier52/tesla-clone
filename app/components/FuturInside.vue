@@ -81,10 +81,10 @@ onMounted(() => {
 }
 
 .futur-inside-picture-container {
-  @apply relative;
+  @apply relative h-screen;
 }
 
 .futur-inside-gradient {
-  @apply absolute h-full w-full bottom-0 left-0 bg-gradient-to-b from-black from-5% to-transparent to-20%;
+  @apply absolute h-full w-full bottom-0 left-0 bg-gradient-to-b from-black from-0% to-transparent to-20%;
 }
 </style>

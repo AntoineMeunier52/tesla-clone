@@ -88,7 +88,7 @@
 }
 
 .hero-picture-gradient {
-  @apply absolute h-screen w-screen bottom-0 left-0 bg-gradient-to-t from-black from-5% to-transparent to-20%;
+  @apply absolute h-screen w-screen bottom-0 left-0 bg-gradient-to-t from-black from-0% to-transparent to-20%;
 }
 
 .hero-image {
