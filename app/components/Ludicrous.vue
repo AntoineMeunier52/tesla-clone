@@ -5,7 +5,7 @@
     <div class="ludicrous-content-container">
       <span class="ludicrous-subtitle">Plaid</span>
       <span class="ludicrous-title">Au-delà de Ludicrous</span>
-      <a class="ludicrous-button" href="">Véhicule disponibles</a>
+      <a class="ludicrous-button" href="/notfound">Véhicule disponibles</a>
     </div>
     <p class="ludicrous-content">
       La Model S Plaid offre l'accélération la plus rapide de tous les véhicules

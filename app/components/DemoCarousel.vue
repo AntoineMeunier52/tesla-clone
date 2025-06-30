@@ -99,7 +99,7 @@ const currentContent = computed(() => videos.value[selected.value - 1]);
 }
 
 .demo-carousel-selector {
-  @apply w-[12px] h-[12px] rounded-[50%];
+  @apply w-[12px] h-[12px] rounded-[50%] cursor-pointer;
 }
 
 .demo-carousel-title {

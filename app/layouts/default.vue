@@ -7,34 +7,38 @@
     </h1>
     <ol class="top-bar-center-container">
       <li class="top-bar-center-elem-center">
-        <a class="top-bar-center-elem"><span>Véhicule</span></a>
+        <a class="top-bar-center-elem" href="notfound"><span>Véhicule</span></a>
       </li>
       <li class="top-bar-center-elem-center">
-        <a class="top-bar-center-elem"><span>Énergie</span></a>
+        <a class="top-bar-center-elem" href="/notfound"><span>Énergie</span></a>
       </li>
       <li class="top-bar-center-elem-center">
-        <a class="top-bar-center-elem"><span>Recharge</span></a>
+        <a class="top-bar-center-elem" href="/notfound"
+          ><span>Recharge</span></a
+        >
       </li>
       <li class="top-bar-center-elem-center">
-        <a class="top-bar-center-elem"><span>Découvrir</span></a>
+        <a class="top-bar-center-elem" href="/notfound"
+          ><span>Découvrir</span></a
+        >
       </li>
       <li class="top-bar-center-elem-center">
-        <a class="top-bar-center-elem"><span>Shop</span></a>
+        <a class="top-bar-center-elem" href="/notfound"><span>Shop</span></a>
       </li>
     </ol>
     <ol class="top-bar-end-container">
       <li class="top-bar-end-elem-container">
-        <a class="top-bar-end-elem">
+        <a class="top-bar-end-elem" href="/notfound">
           <SvgoQuestionMark class="top-bar-icon" />
         </a>
       </li>
       <li class="top-bar-end-elem-container">
-        <a class="top-bar-end-elem">
+        <a class="top-bar-end-elem" href="/notfound">
           <SvgoWorld class="top-bar-icon" />
         </a>
       </li>
       <li class="top-bar-end-elem-container">
-        <a class="top-bar-end-elem top-bar-extra-margin">
+        <a class="top-bar-end-elem top-bar-extra-margin" href="/notfound">
           <SvgoPeople class="top-bar-icon" />
         </a>
       </li>
@@ -46,10 +50,12 @@
   <footer class="footer-container">
     <ol class="footer-container">
       <li class="footer-elem"><span>Meunco @ 2025</span></li>
-      <li class="footer-elem"><a href="">Mentions légales</a></li>
-      <li class="footer-elem"><a href="">Contact</a></li>
-      <li class="footer-elem"><a href="">Actualités</a></li>
-      <li class="footer-elem"><a href="">Recevoir nos actualités</a></li>
+      <li class="footer-elem"><a href="/notfound">Mentions légales</a></li>
+      <li class="footer-elem"><a href="/notfound">Contact</a></li>
+      <li class="footer-elem"><a href="/notfound">Actualités</a></li>
+      <li class="footer-elem">
+        <a href="/notfound">Recevoir nos actualités</a>
+      </li>
       <li><a href="">Localisations</a></li>
     </ol>
   </footer>

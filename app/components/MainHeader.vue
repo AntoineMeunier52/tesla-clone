@@ -37,7 +37,7 @@
             <TitleInfo title="600" unit="km" info="Antonomie" />
             <span class="hero-specs-info"
               >(
-              <a href="" class="hero-specs-info-link">WLTP</a>
+              <a href="/notfound" class="hero-specs-info-link">WLTP</a>
               )</span
             >
           </div>
@@ -59,7 +59,9 @@
             unit="ch"
             info="Puissance du véhicule"
           />
-          <a class="hero-specs-button"><span> Véhicules disponibles </span> </a>
+          <a class="hero-specs-button" href="/notfound"
+            ><span> Véhicules disponibles </span>
+          </a>
         </div>
         <div class="hero-disclaimer-containers">
           <p>

@@ -5,7 +5,7 @@
     <div class="efficiency-content-container">
       <span class="efficiency-subtitle">Extérieur</span>
       <span class="efficiency-title">Conçu pour l'efficience</span>
-      <a class="efficiency-button" href="">Véhicule disponibles</a>
+      <a class="efficiency-button" href="/notfound">Véhicule disponibles</a>
     </div>
     <p class="efficiency-content">
       Avec un coefficient de traînée aérodynamique de seulement 0,208 Cd, le
