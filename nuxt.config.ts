@@ -53,4 +53,17 @@ export default defineNuxtConfig({
 
   css: ["@/assets/css/main.css"],
   ssr: false,
+
+  app: {
+    head: {
+      title: "Tesla Clone",
+      link: [
+        {
+          rel: "icon",
+          type: "image/x-icon",
+          href: "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/shared/icons/favicon-96x96.png",
+        },
+      ],
+    },
+  },
 });
