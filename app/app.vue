@@ -10,6 +10,6 @@ import { NuxtLayout } from "#components";
 
 <style scoped>
 .container {
-  @apply font-Roboto bg-red-200;
+  @apply font-Roboto;
 }
 </style>

@@ -20,7 +20,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { Target } from "~/app/assets/types/target";
+import type { Target } from "~/assets/types/target";
 
 let isActive = 0;
 let intervalId: any;

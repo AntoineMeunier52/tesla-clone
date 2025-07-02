@@ -1,75 +1,28 @@
-# Nuxt Minimal Starter
+# Tesla Clone – Projet perso (Nuxt + GSAP)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Petit projet personnel réalisé en un week-end pour découvrir Nuxt 4 et GSAP.
 
-## Setup
+## Objectif
 
-Make sure to install dependencies:
+Montrer ma capacité à apprendre rapidement une stack inconnue, en reproduisant une page d’accueil inspirée de Tesla, avec un focus sur :
 
-```bash
-# npm
-npm install
+- la structure des composants Vue/Nuxt
+- les animations au scroll avec GSAP
 
-# pnpm
-pnpm install
+## Lien en ligne
 
-# yarn
-yarn install
+🔗 [https://tesla-clone-xi-mocha.vercel.app](https://tesla-clone-xi-mocha.vercel.app)
 
-# bun
-bun install
-```
+## Stack utilisée
 
-## Development Server
+- Nuxt 4 (early acces)
+- Vue 3 (Composition API)
+- GSAP (ScrollTrigger)
+- Tailwind CSS
+- Déploiement : Vercel
 
-Start the development server on `http://localhost:3000`:
+## To do
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Responsive design
+- Refactor code
+- Add animation for Maps
